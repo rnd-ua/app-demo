@@ -1,4 +1,4 @@
-FROM centos/ruby-22-centos7
+FROM nginx
+USER root
+COPY static-html /usr/share/nginx/html
 USER default
-EXPOSE 8080
-
